@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel art Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <div class="option-top">
+      <span class="option">
+        <label class="option__label" for="width">Grid Width</label>
+        <input type="range" value="0" min="1" max="20" step="1" id="col">
+        <span id="grid-col-value">00</span>
+      </span>
+      <span class="option">
+        <label class="option__label" for="height">Grid Height</label>
+        <input type="range" value="0" min="1" max="20" step="1" id="row">
+        <span id="grid-row-value">00</span>
+      </span>
+    </div>
+    <menu>
+      <button id="btn-create">Create Grid</button>
+      <button id="btn-clear">Clear Grid</button>
+      <input type="color" id="btn-color">
+      <button id="btn-erase">Erase</button>
+      <button id="btn-paint">Paint</button>
+    </menu>
+    <div class="container"></div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

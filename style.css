@@ -1,0 +1,66 @@
+:root {
+  --color-bg: #43a047;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+}
+
+.wrap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 80vw;
+  transform: translate(-50%, -50%);
+  padding: 40px 20px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.option-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option__label {
+  display: block;
+}
+
+menu {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 5px;
+  border: 0;
+  border-radius: 8px;
+}
+
+[type='color'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  background-color: transparent;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.gridCol {
+  width: 1em;
+  height: 1em;
+  border: 1px solid #eee;
+}
+
+.gridRow {
+  display: flex;
+}
